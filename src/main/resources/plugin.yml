@@ -1,0 +1,9 @@
+name: CuriousCustodian
+version: '${project.version}'
+main: io.curiositycore.curiouscustodian.CuriousCustodian
+api-version: 1.20
+commands:
+  curiouscustodian:
+    description: Curious Custodian Command
+    usage: /<command>
+    aliases: [cc]
